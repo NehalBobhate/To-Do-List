@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main
+{
+	position: fixed;
+	height:100%;
+	width: 100%;
+	background-image: url("top-view-arrangement-natural-material-stationery.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: cursive;
+
+}
+.tasks
+{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	height: 50%;
+	border-radius: 3em;
+	width: 40%;
+	background-color: beige;
+	border: 1px solid; black;
+
+}
+.task1
+{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	
+
+}
+input
+{
+	border: none;
+	height: 3em;
+	width: 25em;
+	border-radius: 10px;
+	text-align: center;
+	outline: nones;
+
+}
+#btn
+{
+	position: absolute;
+	width: 5em;
+	margin-left: 37%;
+	margin-top: 5px;
+	background-color: skyblue;
+}
+#tsk:hover
+{
+	transform: scale(1.2);
+	outline: none;
+}
+#btn:hover
+{
+	transform:scale(1.2);
+	cursor: pointer;
+}
+
+ul li
+{
+	list-style: none;
+	padding-top: 16%;
+	margin-left:40px ;
+
+}
+ul li::before
+{
+	content: '';
+	background-image: url("black-circle-transparent-background-11.png");
+	background-size: contain;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	left: 20px;
+}
+ul li.checked
+{
+	color: red;
+	text-decoration: line-through;
+}
+ul li.checked::before
+{
+	background-image: url("https://as2.ftcdn.net/v2/jpg/01/38/68/39/1000_F_138683977_MQS6Kw5IqzZaYs5vPbsNdKqfgY6HZqbl.jpg");
+}
+span
+{
+	position: absolute;
+	right: 0px;
+	font-size: 10px;
+	top: px;
+}
